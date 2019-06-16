@@ -1,0 +1,71 @@
+// .ba-main-menu{
+//     a{
+//         color: $black;
+//         &:hover{
+//             color: lighten($primary-color, 20%);
+//         }
+//     }
+// }
+
+.ba-header-wrap{
+    padding-top: 47px;
+    position: fixed;
+    width: 100%;
+    background-color:  transparent; 
+    color: white;
+}
+
+a{  
+            
+    color: black;
+}
+
+
+
+.ba-main-menu{
+    a {
+        &:active{
+            color: white;
+        }  
+        color: #fff;
+    }
+    li{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 12px;
+        padding: 5px 17px;
+        border-radius: 15px;
+        color: #fff;
+
+      
+        
+        &:hover, &:active{
+            border: 1px solid white;
+            
+        }
+    }
+    li+li{
+        margin-left: 30px;
+        
+    }
+}
+
+
+.off-canvas{
+    .menu{
+        a{
+            padding: 10px;
+        }
+    }
+}
+
+
+
+
+
+
+.ba-scrolled {
+    padding: 10px 0;
+    background-color: rgba(#19bd9a, .8);
+   }
